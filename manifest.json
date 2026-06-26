@@ -2,18 +2,18 @@
   "manifest_version": "0.3",
   "name": "marta-mcp",
   "display_name": "MARTA Transit",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Real-time Atlanta MARTA rail arrivals and bus positions",
   "long_description": "Exposes Atlanta MARTA transit data as MCP tools: real-time train arrival predictions for all rail stations (RED/GOLD/BLUE/GREEN lines) and live bus vehicle positions and trip updates from MARTA's GTFS-realtime feeds.\n\n**Requirements:** [uv](https://docs.astral.sh/uv/) must be installed — the server and its dependencies are fetched automatically on first launch.\n\n**API key:** Rail data requires a free MARTA API key, read from ~/.marta/config.json or the MARTA_API_KEY environment variable. Register at https://www.itsmarta.com/developer-reg-rtt.aspx",
   "author": {
     "name": "Rodney Nissen",
-    "url": "https://github.com/LordPsycho202/marta-mcp"
+    "url": "https://github.com/thejiraguy/marta-mcp"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/LordPsycho202/marta-mcp"
+    "url": "https://github.com/thejiraguy/marta-mcp"
   },
-  "homepage": "https://github.com/LordPsycho202/marta-mcp",
+  "homepage": "https://github.com/thejiraguy/marta-mcp",
   "license": "MIT",
   "keywords": ["marta", "transit", "atlanta", "gtfs", "realtime", "trains", "buses"],
   "server": {
@@ -25,7 +25,7 @@
         "--python",
         "3.12",
         "--from",
-        "git+https://github.com/LordPsycho202/marta-mcp",
+        "git+https://github.com/thejiraguy/marta-mcp",
         "marta-mcp"
       ],
       "env": {

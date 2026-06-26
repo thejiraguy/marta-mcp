@@ -31,7 +31,7 @@ server reads it from, in order:
 The easiest way to create the config file:
 
 ```bash
-uvx --from git+https://github.com/LordPsycho202/marta-mcp marta-mcp-config <your-key>
+uvx --from git+https://github.com/thejiraguy/marta-mcp marta-mcp-config <your-key>
 ```
 
 ## Installation
@@ -41,7 +41,7 @@ uvx --from git+https://github.com/LordPsycho202/marta-mcp marta-mcp-config <your
 Requires [uv](https://docs.astral.sh/uv/) to be installed.
 
 Download `marta-mcp.dxt` (or `.mcpb` — same file, newer name) from the
-[latest release](https://github.com/LordPsycho202/marta-mcp/releases) and
+[latest release](https://github.com/thejiraguy/marta-mcp/releases) and
 double-click it, or drag it into Claude Desktop's **Settings → Extensions**.
 No JSON editing needed.
 
@@ -65,7 +65,7 @@ Add to your MCP client config (e.g. `claude_desktop_config.json`):
   "mcpServers": {
     "marta": {
       "command": "uvx",
-      "args": ["--from", "git+https://github.com/LordPsycho202/marta-mcp", "marta-mcp"]
+      "args": ["--from", "git+https://github.com/thejiraguy/marta-mcp", "marta-mcp"]
     }
   }
 }
@@ -74,7 +74,7 @@ Add to your MCP client config (e.g. `claude_desktop_config.json`):
 ### Option 3 — local clone
 
 ```bash
-git clone https://github.com/LordPsycho202/marta-mcp
+git clone https://github.com/thejiraguy/marta-mcp
 cd marta-mcp
 uv run marta-mcp
 ```
